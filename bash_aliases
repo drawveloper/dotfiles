@@ -1,0 +1,10 @@
+##Aliases
+alias grd='sudo grunt'
+alias grp='sudo grunt prod-watch'
+alias gs='git status'
+alias gp='git pull'
+alias ga='git add . --all'
+alias ccui='cd ~/Projects/vcs.checkout-ui/'
+alias eh='sudo gedit /etc/hosts'
+alias clb='git log --pretty=oneline --abbrev-commit --no-merges beta/1.0.1..master'
+alias cls='git log --pretty=oneline --abbrev-commit --no-merges stable/1.0.1..master'
