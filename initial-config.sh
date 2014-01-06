@@ -6,6 +6,7 @@ apt-get update
 apt-get -y install ia32-libs
 apt-get -y install fluxgui
 apt-get -y install libssl-dev git-core pkg-config build-essential curl gcc g++ checkinstall openssh-server vim xclip p7zip-full p7zip-rar
+
 echo "Finished installing tools."
 
 chmod +x git-config.sh
