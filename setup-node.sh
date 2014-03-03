@@ -11,4 +11,7 @@ curl http://nodejs.org/dist/node-latest.tar.gz | tar xz --strip-components=1
 make install
 curl https://npmjs.org/install.sh | sh
 
-echo 'Finished installing node latest stable'
+echo ">>>" 
+echo ">>> Finished installing node latest stable." 
+echo ">>>"
+
