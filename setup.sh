@@ -30,6 +30,7 @@ if hash node 2>/dev/null; then
 else
     ./setup-node.sh
     sudo ./setup-node-link-sudo.sh
+    sudo setcap 'cap_net_bind_service=+ep' `which node`
 fi
 
 echo ">>>" 
