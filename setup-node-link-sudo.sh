@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Check if node is installed
-if hash node 2>/dev/null; then
+if [ -f $HOME/local/bin/node ]; then
     ln -s $HOME/local/bin/node /usr/bin/node
     ln -s $HOME/local/lib/node /usr/lib/node
     ln -s $HOME/local/bin/npm /usr/bin/npm
