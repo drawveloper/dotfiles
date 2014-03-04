@@ -9,6 +9,11 @@ cd ~/node-latest-install
 curl http://nodejs.org/dist/node-latest.tar.gz | tar xz --strip-components=1
 ./configure --prefix=~/local
 make install
+
+# Source our bash in order to have node at our path.
+# Otherwise, the npm script will fail.
+source $HOME/.bashrc
+
 curl https://www.npmjs.org/install.sh | sh
 
 echo ">>>" 
