@@ -25,8 +25,8 @@ if hash node 2>/dev/null; then
     echo ">>> Node is installed. Skipping."
 else
     ./setup-node.sh
-    sudo ./setup-node-link-sudo.sh
     sudo setcap 'cap_net_bind_service=+ep' `which node`
+    sudo ./setup-node-link-sudo.sh
 fi
 
 echo ">>>" 
