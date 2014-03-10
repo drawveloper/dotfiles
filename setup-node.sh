@@ -13,6 +13,7 @@ make install
 # Source our bash in order to have node at our path.
 # Otherwise, the npm script will fail.
 source $HOME/.bashrc
+export PATH=$HOME/local/bin:$PATH
 
 curl https://www.npmjs.org/install.sh | sh
 
