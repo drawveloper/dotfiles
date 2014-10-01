@@ -6,6 +6,7 @@ git config --global alias.graph "log --graph --abbrev-commit --decorate --date=r
 git config --global color.ui true
 git config --global core.editor "vim"
 git config --global push.default simple
+git config --global pull.rebase true
 
 echo ">>>" 
 echo ">>> Applied git configurations." 
