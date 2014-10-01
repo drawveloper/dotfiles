@@ -10,6 +10,8 @@ alias ws='wstorm . > /dev/null 2>&1 &'
 alias sosaria='ssh root@192.241.183.18'
 alias sudo='sudo '
 alias open='xdg-open '
+alias cb='xclip -selection c -i'
+alias ..='cd ..'
 
 . $HOME/.git-prompt.sh
 
