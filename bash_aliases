@@ -12,8 +12,3 @@ alias sudo='sudo '
 alias open='xdg-open '
 alias cb='xclip -selection c -i'
 alias ..='cd ..'
-
-. $HOME/.git-prompt.sh
-
-## PWD
-PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u:\[\033[01;34m\]\W\[\033[00m\]$(__git_ps1)\$ '
