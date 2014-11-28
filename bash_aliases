@@ -12,3 +12,5 @@ alias sudo='sudo '
 alias open='xdg-open '
 alias cb='xclip -selection c -i'
 alias ..='cd ..'
+alias t7='git merge --no-ff'
+
