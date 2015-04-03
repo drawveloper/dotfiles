@@ -15,7 +15,7 @@ make install
 source $HOME/.bashrc
 export PATH=$HOME/local/bin:$PATH
 
-curl -L https://www.npmjs.org/install.sh | sh
+curl -L https://www.npmjs.com/install.sh | sh
 
 echo ">>>" 
 echo ">>> Finished installing node latest stable." 
