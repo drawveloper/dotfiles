@@ -21,3 +21,4 @@ echo ">>>"
 echo ">>> Finished installing node latest stable." 
 echo ">>>"
 
+# from: https://gist.github.com/isaacs/579814
