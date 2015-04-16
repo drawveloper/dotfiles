@@ -14,4 +14,4 @@ script/build
 sudo script/grunt install
 
 # Add packages
-apm install autocomplete-plus linter color-picker atom-beautify file-icons emmet language-python language-go project-manager merge-conflicts zen editorconfig sublime-style-column-selection regex-railroad-diagram git-log todo-show
+apm install autocomplete-plus linter color-picker atom-beautify file-icons emmet project-manager merge-conflicts zen editorconfig sublime-style-column-selection regex-railroad-diagram git-log todo-show
