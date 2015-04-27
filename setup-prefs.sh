@@ -10,3 +10,6 @@ echo ">>>"
 echo ">>> Copied preferences to home." 
 echo ">>>"
 
+# Sane workspace configs for Gnome Shell
+gsettings set org.gnome.shell.overrides workspaces-only-on-primary false
+gsettings set org.gnome.shell.app-switcher current-workspace-only true
