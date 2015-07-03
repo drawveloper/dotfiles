@@ -16,7 +16,7 @@ script/build
 sudo script/grunt install
 
 # Add packages
-apm install linter color-picker atom-beautify \
+apm install linter linter-eslint color-picker atom-beautify \
 file-icons emmet merge-conflicts zen editorconfig \
 sublime-style-column-selection regex-railroad-diagram git-log \
 todo-show git-tab-status tabs-to-spaces \
