@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 git config --global user.name "Guilherme Rodrigues"
 git config --global user.email "gadr90@gmail.com"
 git config --global alias.changelog 'log --oneline --abbrev-commit --no-merges'
@@ -8,7 +8,6 @@ git config --global core.editor "vim"
 git config --global push.default simple
 git config --global pull.rebase true
 
-echo ">>>" 
-echo ">>> Applied git configurations." 
 echo ">>>"
-
+echo ">>> Applied git configurations."
+echo ">>>"

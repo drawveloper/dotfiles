@@ -1,15 +1,11 @@
 #!/bin/bash
-cp bash_prompt $HOME/.bash_prompt
-cp bash_aliases $HOME/.bash_aliases
-cp inputrc $HOME/.inputrc
+cp fish_prompt.fish $HOME/.config/fish/functions/fish_prompt.fish
 
-echo "# Source bash-prompt" >> ~/.bashrc
-echo ". ~/.bash_prompt" >> ~/.bashrc
+HERE=$(pwd)
 
-echo ">>>" 
-echo ">>> Copied preferences to home." 
+echo "# Source aliases" >> ~/.config/fish/config.fish
+echo "source ${HERE}/aliases.sh" >> ~/.config/fish/config.fish
+
 echo ">>>"
-
-# Sane workspace configs for Gnome Shell
-gsettings set org.gnome.shell.overrides workspaces-only-on-primary false
-gsettings set org.gnome.shell.app-switcher current-workspace-only true
+echo ">>> Copied preferences to home."
+echo ">>>"

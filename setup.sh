@@ -1,34 +1,17 @@
 #!/bin/bash
 
+# Basic installs
+./setup-apps.sh
+
 # Copy preferences files
 ./setup-prefs.sh
-
-# Basic installs
-sudo ./setup-initial.sh
-
-# Java
-
-# Check if java is already installed
-if hash java 2>/dev/null; then
-    echo ">>> Java is installed. Skipping."
-else
-    sudo ./setup-java.sh
-fi
 
 # Setup git configurations and aliases
 ./setup-git-config.sh
 
-# Node
+# Atom
+./setup-apm.sh
 
-# Check if node is already installed
-if hash node 2>/dev/null; then
-    echo ">>> Node is installed. Skipping."
-else
-    ./setup-node.sh
-    sudo setcap 'cap_net_bind_service=+ep' $HOME/local/bin/node
-    sudo ./setup-node-link-sudo.sh
-fi
-
-echo ">>>" 
-echo ">>> Finished setup. Cheers!" 
+echo ">>>"
+echo ">>> Finished setup. Cheers!"
 echo ">>>"
