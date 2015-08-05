@@ -1,6 +1,7 @@
 alias gs='git status'
 alias gp='git pull'
 alias ga='git add . --all'
+alias gap='git add -p'
 alias gm='git merge --no-ff'
 alias gc='git changelog'
 alias gg='git graph'
