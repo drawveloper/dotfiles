@@ -27,7 +27,8 @@ google-drive \
 google-earth \
 chromecast \
 virtualbox \
-charles
+charles \
+licecap
 
 echo ">>> Installing brew apps"
 
