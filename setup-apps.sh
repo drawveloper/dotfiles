@@ -36,6 +36,7 @@ echo ">>> Installing brew apps"
 brew install \
 fish \
 gnu-sed \
+ack \
 tree \
 nodejs \
 python \
