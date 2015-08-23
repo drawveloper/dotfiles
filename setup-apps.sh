@@ -28,13 +28,15 @@ google-earth \
 chromecast \
 virtualbox \
 charles \
+vagrant \
 licecap
 
 echo ">>> Installing brew apps"
 
 brew install \
 fish \
-vagrant \
+gnu-sed \
+tree \
 nodejs \
 python \
 ffmpeg \
