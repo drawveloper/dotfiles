@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir -p $HOME/.config/fish/functions/
 cp fish_prompt.fish $HOME/.config/fish/functions/fish_prompt.fish
 
 HERE=$(pwd)

@@ -3,6 +3,9 @@
 # Basic installs
 ./setup-apps.sh
 
+# Make fish the default terminal
+./setup-fish.sh
+
 # Copy preferences files
 ./setup-prefs.sh
 
