@@ -3,6 +3,8 @@ echo ">>> Installing brew"
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+brew update
+
 echo ">>> Installing cask"
 
 brew install caskroom/cask/brew-cask
@@ -24,8 +26,6 @@ firefox \
 clipmenu \
 tunnelblick \
 google-drive \
-google-earth \
-chromecast \
 virtualbox \
 charles \
 vagrant \
