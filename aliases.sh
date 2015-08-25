@@ -10,5 +10,4 @@ alias gsm='git submodule update --init --recursive'
 alias gup='git pull --rebase --prune $argv; and gsm'
 
 alias eh='sudo vim /etc/hosts'
-alias sosaria='ssh root@192.241.183.18'
 alias ..='cd ..'

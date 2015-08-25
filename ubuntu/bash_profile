@@ -1,4 +1,42 @@
-#!/usr/bin/env bash
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# sanity
+set -o vi
+ulimit -c unlimited
+
+# environment
+export TERM=xterm-256color
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# ugh.
+if [[ $(command -v vim) ]]; then
+	export EDITOR="vim"
+else
+	export EDITOR="vi"
+fi
+
+# history
+HISTCONTROL=ignoredups:erasedups:ignorespace
+export HISTFILESIZE=10000
+export HISTSIZE=10000
+shopt -s histappend
+
+# aliases
+alias gs='git status'
+alias gp='git pull'
+alias ga='git add . --all'
+alias gap='git add -p'
+alias gm='git merge --no-ff'
+alias gc='git changelog'
+alias gg='git graph'
+alias gcm='git checkout master'
+alias gsm='git submodule update --init --recursive'
+alias gup='git pull --rebase --prune $argv; and gsm'
+alias eh='sudo vim /etc/hosts'
+alias ..='cd ..'
+
 # Sexy bash prompt by twolfson
 # https://github.com/twolfson/sexy-bash-prompt
 # Forked from gf3, https://gist.github.com/gf3/306785
@@ -244,3 +282,4 @@ PS1="\[$prompt_user_color\]\u\[$prompt_reset\] \
   echo -n \"\[$prompt_git_progress_color\]\$(get_git_progress)\" && \
   echo -n \"\[$prompt_preposition_color\]\")\n\[$prompt_reset\]\
 \[$prompt_symbol_color\]$(get_prompt_symbol) \[$prompt_reset\]"
+export PS1
