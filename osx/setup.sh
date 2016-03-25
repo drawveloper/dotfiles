@@ -3,17 +3,14 @@
 # Basic installs
 ./setup-apps.sh
 
-# Make fish the default terminal
-./setup-fish.sh
-
 # Copy preferences files
 ./setup-prefs.sh
 
 # Setup git configurations and aliases
-./setup-git-config.sh
+../setup-git-config.sh
 
 # Atom
-./setup-apm.sh
+../setup-apm.sh
 
 echo ">>>"
 echo ">>> Finished setup. Cheers!"
