@@ -1,4 +1,9 @@
 #!/bin/bash
+
+echo ">>>"
+echo ">>> Configuring preferences."
+echo ">>>"
+
 cp bash_profile $HOME/.bash_profile
 cp inputrc $HOME/.inputrc
 
