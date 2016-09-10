@@ -1,4 +1,8 @@
 #!/bin/bash
+echo ">>>"
+echo ">>> Configuring git."
+echo ">>>"
+
 git config --global user.name "Guilherme Rodrigues"
 git config --global user.email "gadr90@gmail.com"
 git config --global alias.changelog 'log --oneline --abbrev-commit --no-merges'
