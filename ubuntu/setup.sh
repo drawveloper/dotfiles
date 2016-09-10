@@ -1,10 +1,17 @@
 #!/bin/bash
 
-# Copy preferences files
-./setup-prefs.sh
+echo ">>>"
+echo ">>> Welcome to your new env!"
+echo ">>>"
 
 # Basic installs
 sudo ./setup-apps.sh
+
+# Copy preferences files
+./setup-prefs.sh
+
+# Setup git configurations and aliases
+../setup-git-config.sh
 
 # Java
 
@@ -14,9 +21,6 @@ if hash java 2>/dev/null; then
 else
     sudo ./setup-java.sh
 fi
-
-# Setup git configurations and aliases
-../setup-git-config.sh
 
 echo ">>>"
 echo ">>> Finished setup. Cheers!"
