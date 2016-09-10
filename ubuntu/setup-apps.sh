@@ -21,7 +21,7 @@ echo ">>>"
 
 add-apt-repository ppa:webupd8team/atom
 apt-get update
-apt-get install atom
+apt-get -y install atom
 
 echo ">>>"
 echo ">>> Finished installing atom."
