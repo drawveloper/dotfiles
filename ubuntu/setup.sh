@@ -11,7 +11,7 @@ sudo ./setup-apps.sh
 ./setup-prefs.sh
 
 # Setup git configurations and aliases
-../setup-git-config.sh
+../setup/git.sh
 
 # Java
 
