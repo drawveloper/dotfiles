@@ -13,5 +13,5 @@ Hi there! Don't forget to check [firstdoit.com](http://firstdoit.com) if you're 
     mkdir Projects
     cd Projects
     git clone https://github.com/firstdoit/dotfiles.git
-    cd dotfiles
-    ./macos/setup.sh
+    cd dotfiles/macos/
+    ./setup.sh
