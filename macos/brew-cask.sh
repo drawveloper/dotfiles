@@ -5,6 +5,7 @@ echo ">>> Installing cask apps"
 brew cask install \
 google-chrome \
 iterm2 \
+flux \
 atom \
 webstorm \
 visual-studio-code \
