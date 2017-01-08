@@ -7,6 +7,7 @@ google-chrome \
 iterm2 \
 atom \
 webstorm \
+visual-studio-code \
 spotify \
 spotify-notifications \
 slack \
