@@ -19,4 +19,6 @@ google-drive \
 vlc \
 keepassx \
 spectacle \
-kap
+kap \
+istat-menus \
+docker
