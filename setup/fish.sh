@@ -5,7 +5,6 @@ echo ">>> Setup fish"
 echo ">>>"
 
 mkdir -p $HOME/.config/fish/functions/
-cp ./fish_prompt.fish $HOME/.config/fish/functions/fish_prompt.fish
 echo "
 ### firstdoit/dotfiles
 
@@ -39,6 +38,11 @@ echo ">>>"
 echo ">>> Installing vtex-fish"
 echo ">>>"
 fisher vtex/vtex-fish
+
+echo ">>>"
+echo ">>> Copy fish_prompt"
+echo ">>>"
+cp ../setup/fish_prompt.fish $HOME/.config/fish/functions/fish_prompt.fish
 
 sudo bash -c 'echo "/usr/local/bin/fish" >> /etc/shells'
 chsh -s /usr/local/bin/fish
