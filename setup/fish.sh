@@ -24,6 +24,7 @@ alias gup='git pull --rebase --prune $argv; and gsm'
 alias hash='git rev-parse --short HEAD | pbcopy'
 alias ws='webstorm'
 alias eh='sudo vim /etc/hosts'
+alias c='code .'
 alias ..='cd ..'
 
 ### firstdoit/dotfiles
