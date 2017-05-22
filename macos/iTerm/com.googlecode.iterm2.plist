@@ -67,14 +67,16 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
+	<string>412 528 616 174 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>368 1686 620 392 -602 900 2560 1440 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>170 219 796 473 0 0 1440 877 </string>
+	<string>170 180 918 512 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1 30 1438 843 0 0 1440 877 </string>
+	<string>4 7 1432 867 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>176 70 570 452 0 0 1440 877 </string>
+	<string>4 7 1432 867 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -737,7 +739,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-01-25T09:55:29Z</date>
+	<date>2017-02-22T14:08:10Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -752,6 +754,10 @@
 	<false/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
 	<string>3.0.13</string>
 </dict>

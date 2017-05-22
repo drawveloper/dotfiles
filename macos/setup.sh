@@ -11,6 +11,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ./brew.sh
 ./brew-cask.sh
 ../setup/git.sh
+../setup/ssh.sh
 ../setup/npm.sh
 ../setup/fish.sh
 ../setup/apm.sh
