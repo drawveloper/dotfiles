@@ -26,6 +26,8 @@ alias ws='webstorm'
 alias eh='sudo vim /etc/hosts'
 alias c='code .'
 alias ..='cd ..'
+alias prod='vtex config set env prod'
+alias staging='vtex config set env staging'
 
 ### firstdoit/dotfiles
 " >> ~/.config/fish/config.fish
